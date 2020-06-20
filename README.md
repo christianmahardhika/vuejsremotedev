@@ -14,6 +14,18 @@ sudo ufw allow 8080
 aws EC2 allow 8080 on security group https://stackoverflow.com/questions/5004159/opening-port-80-ec2-amazon-web-services/10454688#10454688 (change 80/http to custom 8080)
 ```
 
+### Before you start
+
+add this config on vue.config.js
+
+```
+module.exports = {
+    devServer: {
+      disableHostCheck: true
+    }
+  }
+```
+
 ## Run Your Project
 ```
 docker-compose up
