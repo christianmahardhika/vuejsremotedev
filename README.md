@@ -2,7 +2,7 @@
 
 Vue Js Template For Remote Development (on VPS / VPC)
 
-# Just copy Dockerfile & Docker Image if you want create your own VueJs Template
+Just copy Dockerfile & Docker Image if you want create your own VueJs Template
 
 allow port :8080 on your instance/machine
 
